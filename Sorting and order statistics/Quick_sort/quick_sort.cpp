@@ -11,7 +11,7 @@ int partition(vector<int>&A, int p, int r){
              swap(A[i],A[j]);
         }
     }
-    swap(A[i+1],A[r]]);
+    swap(A[i+1],A[r]);
     return i+1;
 
 }
